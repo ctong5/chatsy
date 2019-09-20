@@ -1,7 +1,11 @@
 import React from 'react';
+import Chat from './Chat';
 
 const App = props => (
-  <div>Hello, I'm Chatsy</div>
+  <div>
+    <div>Hello, I'm Chatsy</div>
+    <Chat />
+  </div>
 )
 
 export default App;
