@@ -11,6 +11,9 @@ app.use(bodyParser.json());
 app.use('/', express.static(path.resolve(__dirname, '../client', 'public')));
 
 // endpoints
+app.get('/', (req, res) =>{
+  res.status(200).send('Hello from GET 5000');
+})
 
 // listen
 app.listen(port, () => {
