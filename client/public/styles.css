@@ -27,3 +27,27 @@ body {
   max-height: 40px;
 }
 
+.appBody {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 1px white dashed;
+  height: 200px;
+}
+
+.allChatsAddMessage {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.allChats {
+  border: 1px orange solid;
+  height: 50px;
+  overflow: scroll;
+}
+
+.addMessage {
+  border: 1px yellow solid;
+}
