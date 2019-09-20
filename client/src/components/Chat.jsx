@@ -28,7 +28,7 @@ class Chat extends React.Component {
         author: this.state.username,
         message: this.state.message,
       })
-      this.setState({message: ''});
+      this.setState({ message: '' });
     }
   }
 
