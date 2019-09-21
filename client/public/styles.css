@@ -26,9 +26,11 @@ body {
 }
 
 .appBody {
+  max-width: 80%;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   border: 1px white dashed;
   height: 200px;
 }
