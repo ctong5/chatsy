@@ -33,6 +33,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   border: 1px rgb(166,171,175) solid;
+  border-radius: 10px;
 }
 
 .userBox {
@@ -49,17 +50,16 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px green solid;
 }
 
 .allChats {
-  border: 1px orange solid;
   height: 100%;
   overflow: scroll;
 }
 
 .addMessage {
   border: 1px yellow solid;
+  height: 50px;
 }
 
 /* USERS ONLINE */
@@ -74,6 +74,7 @@ body {
 .usersTitle {
   font-weight: bold;
   font-size: 1.4em;
+  letter-spacing: 2px;
   text-transform: uppercase;
   height: 50px;
   display: flex;
@@ -131,5 +132,20 @@ body {
 }
 
 .chatTitle p {
-  color: rgb(255,138,1);
+  color: rgb(252,173,39);
+  letter-spacing: 2px;
+}
+
+/* FORM */
+.send {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #fcad26;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 5px 40px;
+  margin: 0 auto;
 }

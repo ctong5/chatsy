@@ -60,7 +60,7 @@ class Chat extends React.Component {
           <form action="">
             <input id="username" type="text" placeholder="Username" name="username" value={username} onChange={e => this.handleChange(e)} />
             <input id="message" type="text" placeholder="Message" name="message" value={message} onChange={e => this.handleChange(e)}/>
-            <button onClick={this.sendMessage}>Send</button>
+            <button className="send" onClick={this.sendMessage}>Send</button>
           </form>
         </div>
 
