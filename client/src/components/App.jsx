@@ -10,11 +10,11 @@ const App = () => (
     </div>
     
     <div className="appBody">
-      <div>
+      <div className="userBox">
         <Users />
       </div>
       
-      <div>
+      <div className="chatBox">
         <Chat />
       </div>
     </div>
