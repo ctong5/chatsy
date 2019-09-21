@@ -139,9 +139,22 @@ body {
 }
 
 /* FORM */
-.send {
+input {
   outline: none;
   border: none;
+}
+
+form {
+  height: 60%;
+  width: 100%;
+  border: 1px green dashed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+.submit {
   cursor: pointer;
   background-color: #fcad26;
   font-weight: bold;
@@ -149,18 +162,16 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   padding: 5px 40px;
-  margin: 0 auto;
   height: 100%;
+  width: 20%;
 }
 
-form {
-  height: 60%;
+.username {
+  height: 100%;
+  width: 20%;
 }
 
-#username {
+.message {
   height: 100%;
-}
-
-#message {
-  height: 100%;
+  width: 50%;
 }
