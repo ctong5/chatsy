@@ -8,9 +8,7 @@ input {
 }
 
 body {
-  background: #0F2027;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: rgb(21,33,43);
 }
 
 .containerNav ul {
@@ -50,4 +48,56 @@ body {
 
 .addMessage {
   border: 1px yellow solid;
+}
+
+/* USERS */
+.usersContainer {
+  /* border: 1px rgb(153, 167, 178) solid; */
+  border-radius: 10px;
+  background-color: rgb(24,40,52);
+}
+
+.usersTitle {
+  font-weight: bold;
+  text-transform: uppercase;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+  border-bottom: 1px rgb(166,171,175) solid;
+}
+
+.userCardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.userCard {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  width: 300px;
+  /* background-color: rgb(25, 55, 75); */
+  background-color: rgb(24,40,52);
+  border-bottom: 1px rgb(166,171,175) solid;
+  transition: 0.3s;
+  position: relative;
+}
+
+.userCard p {
+  margin-left: 20px;
+}
+
+.userCard img {
+  max-height: 100%;
+}
+
+.userCard:hover {
+  /* background-color: rgb(76, 91, 102); */
+  background-color: rgb(56,68,77);
 }
