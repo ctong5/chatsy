@@ -17,7 +17,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 10px 50px;
 }
 
 .containerNav img {
@@ -60,11 +60,13 @@ body {
 .addMessage {
   border: 1px yellow solid;
   height: 50px;
+  display: flex;
+  align-items: center;
 }
 
 /* USERS ONLINE */
 .usersContainer {
-  border-radius: 10px;
+  border-radius: 10px 0 0 10px;
   background-color: rgb(24,40,52);
   height: 100%;
   overflow: scroll;
@@ -148,4 +150,17 @@ body {
   text-transform: uppercase;
   padding: 5px 40px;
   margin: 0 auto;
+  height: 100%;
+}
+
+form {
+  height: 60%;
+}
+
+#username {
+  height: 100%;
+}
+
+#message {
+  height: 100%;
 }
