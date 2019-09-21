@@ -28,11 +28,11 @@ body {
 .appBody {
   max-width: 80%;
   margin: 0 auto;
+  height: 600px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border: 1px white dashed;
-  height: 600px;
+  border: 1px rgb(166,171,175) solid;
 }
 
 .userBox {
@@ -41,7 +41,6 @@ body {
 
 .chatBox {
   width: 65%;
-  border: 1px purple solid;
 }
 
 .allChatsAddMessage {
@@ -116,4 +115,21 @@ body {
 
 .userCard:hover {
   background-color: rgb(56,68,77);
+}
+
+/* CHATS */
+.chatTitle {
+  font-weight: bold;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+  border-bottom: 1px rgb(166,171,175) solid;
+}
+
+.chatTitle p {
+  color: rgb(255,138,1);
 }

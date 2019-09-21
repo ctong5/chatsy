@@ -45,7 +45,9 @@ class Chat extends React.Component {
 
     return (
       <div className="allChatsAddMessage">
-
+        <div className="chatTitle">
+          <p>Chats</p>
+        </div>
         <div className="allChats">
           {messages.map(message => {
               return (
