@@ -32,7 +32,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   border: 1px white dashed;
-  height: 200px;
+  height: 600px;
 }
 
 .allChatsAddMessage {
@@ -57,10 +57,13 @@ body {
   /* border: 1px rgb(153, 167, 178) solid; */
   border-radius: 10px;
   background-color: rgb(24,40,52);
+  height: 100%;
+  overflow: scroll;
 }
 
 .usersTitle {
   font-weight: bold;
+  font-size: 1.4em;
   text-transform: uppercase;
   height: 50px;
   display: flex;
@@ -71,6 +74,7 @@ body {
 }
 
 .userCardContainer {
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
