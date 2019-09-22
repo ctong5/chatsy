@@ -58,9 +58,22 @@ class Chat extends React.Component {
 
         <div className="addMessage">
           <form action="">
-            <input className="username" type="text" placeholder="Username" name="username" value={username} onChange={e => this.handleChange(e)} />
-            <input className="message" type="text" placeholder="Message" name="message" value={message} onChange={e => this.handleChange(e)}/>
-            <input className="submit" type="submit" value="Send" onClick={this.sendMessage}/>
+            <div className="info">
+              <div className="username">
+                <input id="username" type="text" placeholder="Username" name="username" value={username} onChange={e => this.handleChange(e)} />
+              </div>
+              <div className="message">
+                <input id="message" type="text" placeholder="Message" name="message" value={message} onChange={e => this.handleChange(e)}/>
+              </div>
+            </div>
+            <div className="submit">
+              <div className="paperclip">
+                <i class="material-icons">attach_file</i>
+              </div>
+              <div className="send" onClick={this.sendMessage} >
+                <i class="material-icons">send</i>
+              </div>
+            </div>
           </form>
         </div>
 
