@@ -24,4 +24,6 @@ npm run build:prod
 
 # run the app
 npm start:prod
+
+# run the app simultaneously in multiple browsers from same port to begin chatting
 ```
