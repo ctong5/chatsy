@@ -12,20 +12,32 @@ const ChatAdd = (props) => {
     <form action="">
       <div className="info">
         <div className="username">
-          <input id="username" type="text" placeholder="Username" name="username" value={username} onChange={e => handleChange(e)} />
+          <input 
+            id="username" 
+            type="text" 
+            placeholder="Username" 
+            name="username" 
+            value={username} 
+            onChange={e => handleChange(e)} />
         </div>
         <div className="colon">:</div>
         <div className="message">
-          <input id="message" type="text" placeholder="Message" name="message" value={message} onChange={e => handleChange(e)}/>
+          <input 
+            id="message" 
+            type="text" 
+            placeholder="Message" 
+            name="message" 
+            value={message} 
+            onChange={e => handleChange(e)}/>
         </div>
       </div>
       <div className="submit">
-        <div className="paperclip">
+        <button className="paperclip">
           <i className="material-icons">attach_file</i>
-        </div>
-        <div className="send" onClick={sendMessage} >
+        </button>
+        <button className="send" onClick={sendMessage} >
           <i className="material-icons">send</i>
-        </div>
+        </button>
       </div>
     </form>
   )
