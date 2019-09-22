@@ -66,10 +66,10 @@ class Chat extends React.Component {
             </div>
             <div className="submit">
               <div className="paperclip">
-                <i class="material-icons">attach_file</i>
+                <i className="material-icons">attach_file</i>
               </div>
               <div className="send" onClick={this.sendMessage} >
-                <i class="material-icons">send</i>
+                <i className="material-icons">send</i>
               </div>
             </div>
           </form>
