@@ -32,6 +32,9 @@ class Chat extends React.Component {
       })
       this.setState({ message: '' });
     }
+
+    console.log(`Note: indexes will not be used as keys for ChatItem components.
+Otherwise, open up multiple browser windows and chat away on Chatsy. Enjoy! Cassie`)
   }
 
   handleChange(e) {
