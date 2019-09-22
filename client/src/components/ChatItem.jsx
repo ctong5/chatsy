@@ -7,7 +7,13 @@ const ChatItem = props => {
 
   return (
     <div>
-    {messages.map(message => <div>{message.author}: {message.message}</div>)}
+    {messages.map(message => {
+      return (
+        <div>
+          {message.username}: {message.message}
+        </div>
+      )
+    })}
     </div>
   );
 };
