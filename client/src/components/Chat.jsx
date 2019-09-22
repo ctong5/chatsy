@@ -46,12 +46,12 @@ class Chat extends React.Component {
     } = this.state;
 
     return (
-      <div className="allChatsAddMessage">
+      <div className="streamAddMessage">
         <div className="chatTitle">
           <p>Chats</p>
         </div>
         
-        <div className="allChats">
+        <div className="stream">
           <ChatItem messages={messages} />
         </div>
 
