@@ -2,8 +2,8 @@
 An internet chatroom. No signup or login required.
 
 ## Features
-* Launched: Instant messaging and chat for all users serving localhost on port 5000  
-* Future functionality: Add responsive web design, add username upon entering room, display username in list of "Users Online", and upload/send attachments.
+* Launched: Instant messaging and chat for all users serving localhost on port 5000.
+* Future functionality to add: responsive web design, username upon entering room, display username in list of "Users Online", and upload/send attachments.
 
 
 ## Tech Stack
@@ -26,5 +26,5 @@ npm run build:dev
 npm start:dev
 
 Run the app simultaneously in multiple browsers from same port.
-Enter username and message to begin chatting!
+Enter username and message. Click send icon to begin chatting!
 ```
