@@ -11,7 +11,8 @@ const NavBar = () => (
         <div className="navRight">
           <li><button>Home</button></li>
           <li><button>Rooms</button></li>
-          <li><button>User</button></li>
+          <li><button>Messages</button></li>
+          <li><button>Profile</button></li>
         </div>
       </ul>
     </div>
