@@ -62,6 +62,7 @@ class Chat extends React.Component {
               <div className="username">
                 <input id="username" type="text" placeholder="Username" name="username" value={username} onChange={e => this.handleChange(e)} />
               </div>
+              <div className="colon">:</div>
               <div className="message">
                 <input id="message" type="text" placeholder="Message" name="message" value={message} onChange={e => this.handleChange(e)}/>
               </div>

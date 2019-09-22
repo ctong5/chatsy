@@ -216,6 +216,10 @@ form {
   width: 100%;
 }
 
+.colon {
+  padding-right: 10px;
+}
+
 .allChatsAddMessage {
   height: 100%;
   width: 100%;
