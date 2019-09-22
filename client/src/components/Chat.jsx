@@ -1,6 +1,7 @@
 import React from 'react';
 import io from 'socket.io-client';
 import ChatItem from './ChatItem';
+import ChatAdd from './ChatAdd';
 
 class Chat extends React.Component {
   constructor(props) {
@@ -49,30 +50,13 @@ class Chat extends React.Component {
         <div className="chatTitle">
           <p>Chats</p>
         </div>
+        
         <div className="allChats">
           <ChatItem messages={messages} />
         </div>
 
         <div className="addMessage">
-          <form action="">
-            <div className="info">
-              <div className="username">
-                <input id="username" type="text" placeholder="Username" name="username" value={username} onChange={e => this.handleChange(e)} />
-              </div>
-              <div className="colon">:</div>
-              <div className="message">
-                <input id="message" type="text" placeholder="Message" name="message" value={message} onChange={e => this.handleChange(e)}/>
-              </div>
-            </div>
-            <div className="submit">
-              <div className="paperclip">
-                <i className="material-icons">attach_file</i>
-              </div>
-              <div className="send" onClick={this.sendMessage} >
-                <i className="material-icons">send</i>
-              </div>
-            </div>
-          </form>
+          <ChatAdd username={username} message={message} handleChange={this.handleChange} sendMessage={this.sendMessage} />
         </div>
 
       </div>
