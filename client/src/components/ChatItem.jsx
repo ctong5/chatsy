@@ -6,11 +6,11 @@ const ChatItem = props => {
   } = props;
 
   return (
-    <div>
+    <div className="testing">
     {messages.map(message => {
       return (
-        <div>
-          {message.username}: {message.message}
+        <div className="oneItem">
+          <span className="itemUsername">{message.username}</span>: <span className="itemMessage">{message.message}</span>
         </div>
       )
     })}

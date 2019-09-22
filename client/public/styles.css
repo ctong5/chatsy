@@ -104,6 +104,7 @@ li button:hover {
   font-size: 1.4em;
   letter-spacing: 2px;
   text-transform: uppercase;
+  min-width: 300px;
   height: 50px;
   display: flex;
   justify-content: flex-start;
@@ -146,7 +147,7 @@ li button:hover {
   background-color: rgb(56,68,77);
 }
 
-/* CHATS */
+/* CHATBOX */
 .chatTitle {
   font-weight: bold;
   font-size: 1.4em;
@@ -162,6 +163,32 @@ li button:hover {
 .chatTitle p {
   color: rgb(252,173,39);
   letter-spacing: 2px;
+}
+
+/* CHAT ITEM */
+/* Toggle this class - hide and show the popup */
+
+.oneItem {
+  padding: 20px 20px 0 20px;
+  -webkit-animation: fadeIn 0.2s;
+  animation: fadeIn 0.2s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+.itemUsername {
+  font-weight: bold;
+  color: rgb(166,171,175);
+  padding-right: 5px;
 }
 
 /* FORM */
