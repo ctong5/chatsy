@@ -26,5 +26,5 @@ npm run build:dev
 npm start:dev
 
 Run the app simultaneously in multiple browsers from same port.
-Enter username and message. Click send icon to begin chatting!
+Enter username and message. Click "send" icon to begin chatting!
 ```
