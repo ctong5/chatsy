@@ -1,5 +1,6 @@
 import React from 'react';
 import io from 'socket.io-client';
+import ChatItem from './ChatItem';
 
 class Chat extends React.Component {
   constructor(props) {
@@ -49,11 +50,7 @@ class Chat extends React.Component {
           <p>Chats</p>
         </div>
         <div className="allChats">
-          {messages.map(message => {
-              return (
-                  <div>{message.author}: {message.message}</div>
-              )
-          })}
+          <ChatItem messages={messages} />
         </div>
 
         <div className="addMessage">
