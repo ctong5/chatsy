@@ -95,8 +95,8 @@ li button:hover {
   border-radius: 10px 0 0 10px;
   background-color: rgb(24,40,52);
   height: 100%;
-  overflow: scroll;
   width: 100%;
+  overflow: hidden;
 }
 
 .usersTitle {
@@ -113,13 +113,16 @@ li button:hover {
   border-bottom: 1px rgb(166,171,175) solid;
 }
 
+.cards {
+  height: calc(100% - 50px);
+  overflow: scroll;
+}
+
 .userCardContainer {
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 0 10px;
 }
 
 .userCard {
@@ -132,7 +135,6 @@ li button:hover {
   background-color: rgb(24,40,52);
   border-bottom: 1px rgb(166,171,175) solid;
   transition: 0.3s;
-  position: relative;
 }
 
 .userCard p {
