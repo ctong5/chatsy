@@ -166,15 +166,12 @@ li button:hover {
 }
 
 /* CHAT ITEM */
-/* Toggle this class - hide and show the popup */
-
 .oneItem {
   padding: 20px 20px 0 20px;
   -webkit-animation: fadeIn 0.2s;
   animation: fadeIn 0.2s;
 }
 
-/* Add animation (fade in the popup) */
 @-webkit-keyframes fadeIn {
   from {opacity: 0;} 
   to {opacity: 1;}
