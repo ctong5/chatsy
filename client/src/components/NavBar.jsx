@@ -6,12 +6,12 @@ const NavBar = () => (
     <div className="navList">
       <ul className="navUl">
         <div className="navLeft">
-          <li><img src={Logo} alt="chatsy logo"/></li>
+          <li><button><img src={Logo} alt="chatsy logo"/></button></li>
         </div>
         <div className="navRight">
-          <li>Home</li>
-          <li>Rooms</li>
-          <li>User</li>
+          <li><button>Home</button></li>
+          <li><button>Rooms</button></li>
+          <li><button>User</button></li>
         </div>
       </ul>
     </div>

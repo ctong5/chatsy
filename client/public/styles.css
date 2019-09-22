@@ -57,6 +57,19 @@ body {
   justify-content: space-between;
 }
 
+li button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1em;
+}
+
+li button:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 /* OVERALL LAYOUT */
 .appBody {
   max-width: 80%;
