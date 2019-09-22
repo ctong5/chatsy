@@ -20,10 +20,10 @@ git clone https://github.com/ctong5/chatsy.git
 npm install
 
 # build webpack bundle
-npm run build:prod
+npm run build:dev
 
 # run the app
-npm start:prod
+npm start:dev
 
 Run the app simultaneously in multiple browsers from same port.
 Enter username and message to begin chatting!
