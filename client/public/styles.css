@@ -196,7 +196,7 @@ form {
 
 .username {
   height: 100%;
-  width: 30%;
+  width: 25%;
   display: flex;
   align-items: center;
 }
@@ -207,7 +207,7 @@ form {
 
 .message {
   height: 100%;
-  width: 70%;
+  width: 75%;
   display: flex;
   align-items: center;
 }
