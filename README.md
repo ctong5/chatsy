@@ -2,8 +2,8 @@
 An internet chatroom. No signup or login required.
 
 ## Features
-* Launched: Instant messaging and chat for all users serving localhost on port 5000.
-* Future functionality to add: responsive web design, username upon entering room, display username in list of "Users Online", and upload/send attachments.
+* Launched: Instant messaging and chat for all users serving localhost on port 5000. Responsive to mobile size viewport.
+* Future functionality to add: username upon entering room, display username in list of "Users Online", and upload/send attachments.
 
 
 ## Tech Stack
