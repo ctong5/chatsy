@@ -2,7 +2,7 @@
 An internet chatroom. No signup or login required.
 
 <span>
-<img src="https://user-images.githubusercontent.com/46356648/65451411-f80e7800-ddf3-11e9-8612-e030b58caef1.png" width="565">
+<img src="https://user-images.githubusercontent.com/46356648/65451411-f80e7800-ddf3-11e9-8612-e030b58caef1.png" width="568">
 
 <img src="https://user-images.githubusercontent.com/46356648/65450896-fe502480-ddf2-11e9-9d71-521e011a4e41.png" width="150">
 </span>
