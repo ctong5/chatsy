@@ -4,6 +4,10 @@ An internet chatroom. No signup or login required.
 ![Screenshot](https://imgur.com/a/bf21O6t "Chatsy Screenshot Browser")
 ![Screenshot](https://imgur.com/a/MXi1elJ "Chatsy Screenshot Mobile")
 
+<div align="center">
+    <img src="https://imgur.com/a/MXi1elJ" width="400px"</img> 
+</div>
+
 ## Features
 * Launched: Instant messaging and chat for all users serving localhost on port 5000. Responsive to mobile size viewport.
 * Future functionality to add: username upon entering room, display username in list of "Users Online", and upload/send attachments.
