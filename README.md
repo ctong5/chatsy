@@ -1,12 +1,11 @@
 # Chatsy
 An internet chatroom. No signup or login required.
 
-![Screenshot](https://imgur.com/a/bf21O6t "Chatsy Screenshot Browser")
-![Screenshot](https://imgur.com/a/MXi1elJ "Chatsy Screenshot Mobile")
+<span>
+<img src="https://user-images.githubusercontent.com/46356648/65451411-f80e7800-ddf3-11e9-8612-e030b58caef1.png" width="565">
 
-<div align="center">
-    <img src="https://imgur.com/a/MXi1elJ" width="400px"</img> 
-</div>
+<img src="https://user-images.githubusercontent.com/46356648/65450896-fe502480-ddf2-11e9-9d71-521e011a4e41.png" width="150">
+</span>
 
 ## Features
 * Launched: Instant messaging and chat for all users serving localhost on port 5000. Responsive to mobile size viewport.
