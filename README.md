@@ -1,8 +1,8 @@
 # Chatsy
 An internet chatroom. No signup or login required.
 
-![Alt text](https://imgur.com/a/bf21O6t "Chatsy Screenshot Browser")
-![Alt text](https://imgur.com/a/MXi1elJ "Chatsy Screenshot Mobile")
+![Screenshot](https://imgur.com/a/bf21O6t "Chatsy Screenshot Browser")
+![Screenshot](https://imgur.com/a/MXi1elJ "Chatsy Screenshot Mobile")
 
 ## Features
 * Launched: Instant messaging and chat for all users serving localhost on port 5000. Responsive to mobile size viewport.
