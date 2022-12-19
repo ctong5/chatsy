@@ -38,7 +38,7 @@
     "eslint": "^6.4.0",
     "eslint-config-airbnb": "^18.0.1",
     "morgan": "^1.9.1",
-    "nodemon": "^1.19.2",
+    "nodemon": "^2.0.20",
     "webpack": "^4.40.2",
     "webpack-cli": "^3.3.12"
   }
